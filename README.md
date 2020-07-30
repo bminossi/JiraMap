@@ -1,2 +1,2 @@
 # JiraMap
-A simple Jira enumeraton
+A simple Jira enumerator
