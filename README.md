@@ -1,8 +1,12 @@
 # JiraMap
 A simple Jira enumerator
-#### We will always considerer that the paths start with https://JiraUrl
 
-## Do an enumeration of available gadgets (some pages require authentication):
+### Creating your environment to do local tests
 ```
+docker volume create --name jiraVolume
+docker run -v jiraVolume:/var/atlassian/application-data/jira --name="jira" -d -p 8080:8080 atlassian/jira-software
+```
+## Do an enumeration of available gadgets (some pages require authentication):
+
 /rest/config/1.0/directory
 ```
