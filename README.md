@@ -26,4 +26,4 @@ https://docs.atlassian.com/software/jira/docs/api/REST/{{VERSION}}
 ## Resources
 https://github.com/elfarsaouiomar/scan-jira-endpoints
 
-https://github.com/0x48piraj/Jiraffe
+https://github.com/0x48piraj/Jiraffe/blob/4d7634557e708a58ea2857fb18d1ffe4c7f74546/jiraffe/exploits.py
