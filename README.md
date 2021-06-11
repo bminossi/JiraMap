@@ -6,6 +6,11 @@ A simple Jira enumerator
 docker volume create --name jiraVolume
 docker run -v jiraVolume:/var/atlassian/application-data/jira --name="jira" -d -p 8080:8080 atlassian/jira-software
 ```
+
+### Get all Jiras from wordlist hosts
+```
+httpx -l todosPagosUp -path '/rest/config/1.0/directory.json' -match-string 'com.atlassian.jira.gadgets' -threads 400 | anew todosJiras
+```
 ---
 ### Enumeration of available gadgets (some pages require authentication):
 
