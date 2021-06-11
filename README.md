@@ -9,8 +9,8 @@ docker run -v jiraVolume:/var/atlassian/application-data/jira --name="jira" -d -
 ---
 ### Enumeration of available gadgets (some pages require authentication):
 
-#### Unknown
-/rest/config/1.0/directory
+#### All Gadgets
+jiraurl/rest/config/1.0/directory.json
 
 #### Get Jira version
 jiraurl/rest/api/2/serverInfo
